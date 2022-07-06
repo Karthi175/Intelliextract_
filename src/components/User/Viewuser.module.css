@@ -1,0 +1,139 @@
+.positionTab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardspace {
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.tableShadow {
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: calc(0.75rem - 1px) calc(0.75rem - 1px) 0 0;*/
+  background-color: #fff;
+}
+
+/**************************/
+
+.clearFix {
+  padding: 0px !important;
+}
+
+.card_styles {
+  background-color: white;
+  margin: 5px 10px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  /* box-shadow: 0 0 10px;*/
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.card_icon {
+}
+
+.card_name {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.navbar {
+  background-color: #e3eafc;
+  height: calc(100vh - 65px);
+}
+
+.menu_bars {
+}
+
+.menu_item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  /* margin-left: 30px; */
+  cursor: pointer;
+}
+
+.menu_item:hover {
+  background-color: white;
+}
+
+.menu_icon {
+  margin-left: 10px;
+}
+
+.menu_name {
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.avatar_container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.avatar_content {
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.hr_line {
+  margin: 30px 0;
+  border-top: 3px solid black;
+}
+/* .detail_container{
+     display: flex;
+     flex-direction: row;
+     background-color: bisque;
+     border-radius: 10px;
+     padding:30px 10px;
+     justify-content: space-evenly
+} */
+
+.detail_container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  justify-content: space-evenly;
+}
+.detail_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail_image {
+  padding: 7px 10px;
+  border-radius: 8px;
+}
+
+.detail_desc {
+  padding-top: 7px;
+  font-size: 18px;
+}
+
+.Tablealignment {
+  /*display: flex;*/
+}

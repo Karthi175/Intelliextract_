@@ -1,0 +1,33 @@
+.tableContainer {
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  /* border-radius: calc(0.75rem - 1px) calc(0.75rem - 1px) 0 0; */
+  /* border-radius: 12px;
+  background-color: #fff;
+  margin: 20px; */
+  /* height: 450px; */
+  /* border: solid 1px;*/
+  padding-bottom: 1px;
+  margin-bottom: 16px;
+}
+
+.tableBox {
+  margin: 10px;
+  height: 415px;
+  width: "100%";
+  font-family: "Montserrat";
+}
+.outer {
+  background: #ffff;
+  /* box-shadow: 10px 10px 10px rgb(0 0 0/15%); */
+  /* padding: 1rem; */
+  padding-bottom: 70px;
+  width: 100%;
+  height: 15rem;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  border-radius: 12px;
+  border: solid 1px;
+}
+.outer:hover {
+}

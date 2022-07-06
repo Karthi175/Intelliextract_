@@ -1,0 +1,186 @@
+.cardHeader {
+  padding: 140px 0px 0px 0px;
+  /* padding-right: 15%; */
+}
+
+.cardConatiner {
+  min-width: 10%;
+  background: transparent;
+  border-radius: 5px;
+  margin: 22px;
+  margin-top: -33px;
+}
+
+.cardConatiner button, .cardConatiner button:hover {
+  /* width: 10%; */
+  padding: 13px;
+  background-color: #013763;
+  min-width: 152px;
+  max-width: 161px;
+  width: 100%;
+
+}
+
+.cardConatiner label {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.spin {
+  /* width: 90%; */
+  /* padding: 13px; */
+  margin-top: 45px;
+  margin-left: 30px;
+  position: absolute;
+  right: 521px;
+  bottom: 74px;
+}
+
+/* .spin Spinner {
+  margin: left 10px;
+} */
+
+.spin span {
+  font-size: 16 !important;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  color: #ffffff;
+  padding-left: 16px;
+  padding-top: 5px;
+}
+
+.cardConatiner button:disabled {
+  background: #013763;
+  border-color: #013763;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.cardConatiner input[type=file] {
+  min-width: 450px;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.heroImage {
+  background-image: url("../../assets/herobanner.png");
+  height: 493px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -28px;
+}
+
+.heroText {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.heroText button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.heroText button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.cardHeader h1 {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: #ffffff;
+}
+
+.cardHeader p {
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.choose_file{
+  margin-left: -124px;
+}
+
+.form_file_upload {
+  height: 16rem;
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+  min-width: 450px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form_file_upload p span, .form_file_upload p a {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.label_file_upload {
+  height: 54%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #cbd5e1;
+  border-radius: 5px;
+  background-color: rgba(217, 217, 217, 0.35);
+  color: #eff1f3;
+}
+
+.label_file_upload.drag_active {
+  background-color: rgba(217, 217, 217, 0.35);
+}
+
+.upload_button {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #eff1f3;
+}
+
+.upload_button:hover {
+  text-decoration-line: underline;
+}
+
+.drag_file_element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+@media screen and ( min-width: 1800px ) {
+  .heroImage{
+    background-position: inherit;
+  }
+}
